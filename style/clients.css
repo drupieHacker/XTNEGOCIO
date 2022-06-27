@@ -1,0 +1,20 @@
+.clients{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #182031;
+padding: 20px;
+}
+.clients .clients_row{
+    margin-top: 50px;
+}
+.clients h1{
+    width: 100%;
+    text-align: center;
+    color: #fafafa;
+}
+.clients_row img{
+    width: 100%;
+    display: block;
+}
