@@ -1,0 +1,26 @@
+aside h1{
+    width:100% ;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: #01579B;
+}
+aside p{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.partners{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box_partner{
+    width: 30%;
+   
+}
+.box_partner img{
+    display: block;
+    margin: 0 auto;
+}

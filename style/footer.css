@@ -1,0 +1,82 @@
+footer{
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .branding p{
+background-color: #182031;
+color: #fafafa;
+padding: 10px;
+
+}
+footer .branding img{
+   margin-left: 50px;
+    
+    }
+    footer .branding{
+        width: 30%;
+    }
+    footer .contact{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+   
+        margin-left: 15%;
+    }
+    footer .bar_network{
+        width: 30%;
+        height: 250px;
+background-color: #182031;
+display: flex;
+flex-direction: column;
+margin-left: 200px;
+z-index: 2;
+    }
+
+    footer .contact h1{
+        width: 100%;
+        margin: 0 auto;
+        background: #182031;
+        text-align: center;
+        color: #fafafa;
+    }
+    footer .contact p{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    footer .contact a{
+        width: 100%;
+        text-align: center;
+    }
+   
+    footer .bar_network p{
+        width: 100%;
+        text-align: center;
+        color: #fafafa;
+        font-size: 30px;
+    }
+    footer .bar_network .enlaces{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    footer .bar_network .enlaces a{
+        margin-bottom: 20px;
+        color: #fafafa;
+        text-decoration: none;
+    }
+    footer .widget{
+        width: 8%;
+        height: 350px;
+        background-color: #FFC107;
+       z-index: 1;
+       position: absolute;
+       left: 92%;
+    }

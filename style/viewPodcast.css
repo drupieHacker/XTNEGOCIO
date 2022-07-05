@@ -1,0 +1,70 @@
+.headerPodcast{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.headerPodcast .logo{
+    width: 20%;
+    
+    display: flex;
+    justify-content: center;
+}
+.headerPodcast .text_branding{
+    width: 70%;
+}
+.headerPodcast .text_branding h1{
+    text-align: center;
+    font-size: 50px;
+}
+main{
+    width: 90%;
+    margin:0 auto;
+    margin-bottom: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #182031;
+    padding: 20px;
+}
+
+.podcast-item_audio{
+    width: 45%;
+    background-color: #1E1E1E;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+.box_audio{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgBox{
+    width: 20%;
+display: flex;
+justify-content: center;
+margin-left: 5%;
+}
+.autorBox{
+    width: 70%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.autorBox p{
+    width: 100%;
+   text-align: center;
+   color: #fafafa;
+}
+.audio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

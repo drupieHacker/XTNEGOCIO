@@ -1,0 +1,36 @@
+.more_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.more_container h1{
+    width: 100%;
+   text-align: center;
+}.more_container .more-container_items{
+    width: 45%;
+    height: 200px;
+    background-color: #182031;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more_container .more-container_btnWhatssapp{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more_container .more-container_btnWhatssapp a{
+    background-color: #075E54;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fafafa;
+}
+.more_container p{
+  color: #fafafa;
+}
+.more_container .more-container_btnWhatssapp{
+    width: 50%;
+}
+

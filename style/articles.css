@@ -1,37 +1,96 @@
-
-.container_articles{
+.articles{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
-.branding_article{
+.articles .box-art1{
     width: 50%;
+    height: 300px;
     display: flex;
-   flex-wrap: wrap;
     justify-content: center;
-}
-.branding_article img{
-    width: 100px;
-    height: 100px;
-    display: block;
-}
-.branding_article h3{
-    width: 100%;
-    text-align: center;
-}
-.article{
-    width: 50%;
-}
-.article .title{
-    margin-bottom: 15px;
-    text-align: center;
-}
-.article article{
-    width: 100%;
-    display: flex;
     align-items: center;
 }
-.article article img{
-    width: 80px;
-    height: 80px;
-    margin-right: 50px;
+.articles .box-art-2{
+    width: 50%;
+    background-color: #182031;
+    display: flex;
+    flex-wrap: wrap;
+}
+.articles .box-art-2 h1{
+    width: 100%;
+    text-align: center;
+    color: #fafafa;
+}
+.articles .autor_article{
+    width: 100%; display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.articles .text_article{
+    display: flex;
+    justify-content: space-around;
+}
+.articles .text_article img{
+width: 20%;
+}
+.articles .text_article p{
+    width: 75%;
+    color: #fafafa;
+}.articles .autor_article span{
+   
+    color: #fafafa;
+}
+.row-articles{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+   
+}
+.row-articles article{
+    width: 30%;
+    background-color: #182031;
+    margin-left: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 30px;
+    padding-block-start: 10px;
+   padding: 10px;
+   margin-bottom: 50px;
+}
+.row-articles article h1{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: #fafafa;
+   
+}
+.row-articles article p{
+   width: 80%;
+   margin: 0 auto;
+   color: #fafafa;
+   text-align: justify;
+   
+}
+.row-articles article .autor_article{
+width: 100%;
+
+display: flex;
+justify-content: center;
+margin-bottom: 50px;
+}
+.row-articles article .autor_article span{
+color: #fafafa;
+}
+.row-articles article a{
+    width: 200px;
+    background-color: #FFC107;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #fafafa;
+    margin-top: 10px;
 }
