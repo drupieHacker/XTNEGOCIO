@@ -1,0 +1,45 @@
+.title_article{
+width: 100%;
+margin-top: 100px;
+text-align: center;
+}
+.titelseite{
+    width: 80%;
+    margin: 0 auto;
+   
+   
+}
+.title_article h1{
+    width: 80%;
+    margin: 0 auto;
+    color: #004983;
+    font-size: 64px;
+}
+.titelseite img{
+    width: 100%;
+    display: block;
+}
+.readArt{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.readArt .box_read_art{
+    width :25%;
+}
+.textLong{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.textLong p{
+    width: 45%;
+    margin-left: 5%;
+}
+
+.finish_text{
+    width: 80%;
+    margin: 30px auto;
+}
