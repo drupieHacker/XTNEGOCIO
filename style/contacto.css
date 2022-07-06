@@ -39,12 +39,16 @@
 .contacto .form{
     width: 45%;
 }
-.contacto .form form{
+ .contacto .form form{
     width: 100%;
     display: flex;
     flex-direction: column;
+} 
+.contacto .form iframe{
+    width: 100%;
+    height: 950px;
 }
-.contacto .form form input{
+/* .contacto .form form input{
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -52,7 +56,7 @@
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #ccc;
-}
+}  */
 ::placeholder{
     text-align: center;
 }.contacto .form form input[type="submit"]{
